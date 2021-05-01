@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FingerPrint_activity">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/finger_print_back">
+
+        <TextView
+            android:id="@+id/fingerprint_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="25dp"
+            android:textColor="@color/finger_print_header"
+            android:gravity="center"
+            android:text="Вход в приложение"/>
+
+        <TextView
+            android:id="@+id/fingerprint_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/finger_print_text"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/fingerprint_label"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="Сканирование отпечатка"/>
+
+        <Button
+            android:id="@+id/fingerprint_button"
+            android:layout_below="@id/fingerprint_text"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:text="Отмена"
+            android:background="@drawable/finger_print_button"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/finger_print_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"/>
+
+</RelativeLayout>

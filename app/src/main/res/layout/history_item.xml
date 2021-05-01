@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dock"
+    android:weightSum="100"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/history_item_spisanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Списание"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textSize="18sp"
+                    android:padding="8dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/history_item_header"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/history_item_name_oper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Название операции"
+                    android:textColor="@color/history_item_textcolor"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/history_item_spisanie"
+                    android:layout_marginLeft="19dp"/>
+
+                <TextView
+                    android:id="@+id/history_item_num_plotez"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/history_item_textcolor"
+                    android:text="Номер платежа"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/history_item_name_oper"
+                    android:layout_marginLeft="19dp"/>
+
+                <TextView
+                    android:id="@+id/history_item_price"
+                    android:textColor="@color/history_item_textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Цена услуги"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/history_item_num_plotez"
+                    android:layout_marginLeft="19dp"/>
+
+            </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:background="@drawable/raif_logo"
+                android:layout_height="72dp"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

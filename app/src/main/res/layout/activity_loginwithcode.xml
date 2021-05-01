@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/code_background"
+    tools:context=".loginwithcode">
+
+    <RelativeLayout
+        android:id="@+id/loginwithcode_sircles"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/loginwithcode_sircleoff_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/auth_sircleoff"/>
+
+        <ImageView
+            android:id="@+id/loginwithcode_sircleoff_2"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/loginwithcode_sircleoff_1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/auth_sircleoff"/>
+
+        <ImageView
+            android:id="@+id/loginwithcode_sircleoff_3"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/loginwithcode_sircleoff_2"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/auth_sircleoff"/>
+
+        <ImageView
+            android:id="@+id/loginwithcode_sircleoff_4"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/loginwithcode_sircleoff_3"
+            android:layout_height="wrap_content"
+            android:background="@drawable/auth_sircleoff"/>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/loginwithcode_clear_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/loginwithcode_sircles"
+        android:background="@drawable/cancel"
+        android:layout_marginTop="278dp"
+        android:layout_marginLeft="15dp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginwithcode_sircles"
+        android:layout_centerHorizontal="true">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3">
+
+            <Button
+                android:id="@+id/loginwithcode_one"
+                android:text="1"
+                android:textColor="@color/code_round"
+                android:textSize="64sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:id="@+id/loginwithcode_two"
+                android:text="2"
+                android:textColor="@color/code_round"
+                android:textSize="64sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:id="@+id/loginwithcode_three"
+                android:text="3"
+                android:textColor="@color/code_round"
+                android:textSize="64sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:text="4"
+                android:textSize="64sp"
+                android:textColor="@color/code_round"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:text="5"
+                android:textSize="64sp"
+                android:textColor="@color/code_round"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:text="6"
+                android:textColor="@color/code_round"
+                android:textSize="64sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:text="7"
+                android:textColor="@color/code_round"
+                android:textSize="64sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:text="8"
+                android:textSize="64sp"
+                android:textColor="@color/code_round"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:text="9"
+                android:textSize="64sp"
+                android:textColor="@color/code_round"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:background="@drawable/bx_bx_exit"
+                android:layout_gravity="center"
+                android:layout_height="42dp"
+                android:layout_width="50dp"/>
+            <Button
+                android:text="0"
+                android:textColor="@color/code_round"
+                android:textSize="64sp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/loginwithcode_scan"
+                android:background="@drawable/ion_finger_print"
+                android:layout_gravity="center"
+                android:layout_height="42dp"
+                android:layout_width="50dp"/>
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

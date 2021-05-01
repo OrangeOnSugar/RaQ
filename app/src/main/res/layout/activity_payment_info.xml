@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/payment_back"
+    tools:context=".activity_payment_info">
+
+    <TextView
+        android:id="@+id/payment_info_name_oper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Название операции"
+        android:textSize="20sp"
+        android:textColor="@color/payment_oper_name"
+        android:layout_marginTop="40dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/payment_info_slider_card"
+        android:layout_below="@+id/payment_info_name_oper"
+        app:cardCornerRadius="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/payment_info_imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="@color/payment_select_slider"
+            app:sliderIndicatorUnselectedColor="@color/payment_unselect_slider"
+            app:sliderScrollTimeInSec="1"
+            app:sliderStartAutoCycle="true" />
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/payment_info_opic_contain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/payment_info_slider_card">
+
+        <TextView
+            android:id="@+id/payment_opic"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="12dp"
+            android:text=""
+            android:textColor="@color/payment_descrip_text_color"
+            android:padding="13dp"
+            android:background="@drawable/back_op"
+            android:layout_marginHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/payment_info_opic_lable"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/payment_descrip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Описание"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/payment_info_button_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payment_info_opic_contain"
+        android:layout_marginTop="25dp"
+        android:text="Оформить возврат"
+        android:textAllCaps="false"
+        android:textColor="@color/payment_buttonPay_text_color"
+        android:background="@drawable/payment_button"
+        android:layout_marginHorizontal="30dp"/>
+
+    <Button
+        android:id="@+id/payment_info_button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payment_info_button_pay"
+        android:layout_marginTop="15dp"
+        android:text="НАЗАД"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:background="@drawable/back_to"
+        android:layout_marginHorizontal="30dp"/>
+
+</RelativeLayout>

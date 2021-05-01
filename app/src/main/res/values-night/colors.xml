@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="selecton">#F8E115</color>
+    <color name="selectoff">#000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <!--Активити установите код-->
+
+        <color name="set_code_message_back">#FFF220</color>
+        <color name="set_code_message_title">#000</color>
+        <color name="set_code_message_text">#2D2D2D</color>
+        <color name="set_code_message_button_set_code">#C4DDDF</color>
+        <color name="set_code_message_button_skip">#FFF4F4</color>
+
+    <!--Активити код-->
+
+        <color name="code_background">#FDFDFC</color>
+        <color name="code_title">#6D6D6D</color>
+        <color name="code_round">#000</color>
+        <color name="code_round_fill">#F8E115</color>
+
+    <!--Активити приложите палец-->
+
+        <color name="finger_print_back">#B5B5B5</color>
+        <color name="finger_print_header">#000000</color>
+        <color name="finger_print_text">#565656</color>
+        <color name="finger_print_button_color">#FFF220</color>
+
+
+    <!--Активити платёж-->
+
+        <!--Фон-->
+        <color name="payment_back">#EBEBEB</color>
+
+        <!--Заголовок-->
+        <color name="payment_header">#000000</color>
+
+        <!--Название операции-->
+        <color name="payment_oper_name">#656565</color>
+
+        <!--Слайдер-->
+        <color name="payment_select_slider">#FFF</color>
+        <color name="payment_unselect_slider">#000</color>
+
+        <!--Описание-->
+        <color name="payment_descrip">#000000</color>
+        <color name="payment_descrip_back">#CFCFCF</color>
+        <color name="payment_descrip_text_color">#000</color>
+
+        <!--Кнопка оплатить-->
+        <color name="payment_buttonPay_text_color">#FFFFFF</color>
+        <color name="payment_buttonPay_stroke">#A9CCE3</color>
+        <color name="payment_buttonPay_fill">#000</color>
+        <color name="payment_buttonPay_fill_b">#fff</color>
+
+    <!--Активити восстановление пароля-->
+
+        <!--Фон-->
+        <color name="forgetpass_back">#E5E5E5</color>
+
+        <!--Заголовок-->
+        <color name="forgepass_header">#6D6D6D</color>
+
+    <!--Активити сообщения-->
+
+        <!--Фон-->
+        <color name="message_activity_bg">#FFF220</color>
+
+        <!--Текст-->
+        <color name="message_activity_text">#363636</color>
+
+
+
+    <!--Эдит пароль в настройках-->
+    <color name="settings_edit_color">#000</color>
+
+    <!--Активити регистрация-->
+
+        <!--Фон-->
+        <color name="regist_background">#FDFDFC</color>
+
+        <!--Надпись-->
+        <color name="regist_background_label">#000</color>
+
+        <!--Иконка-->
+        <color name="regist_icon">#000</color>
+
+        <!--Эдиты-->
+        <color name="regist_edittext_color_text">#000</color>
+        <color name="regist_edittext_color_hint">#8D8D8D</color>
+
+        <!--Кнопка-->
+        <color name="registr_button_fill">#F8E10E</color>
+        <color name="registr_button_fill_fill">#fff</color>
+        <color name="registr_button_border_border">#8E8E8E</color>
+
+        <!--Назад к авторизации-->
+        <color name="registr_goto_reg_text">#000</color>
+        <color name="registr_goto_reg_line">#000</color>
+
+    <!--Активити авторизации-->
+
+        <!--Фон-->
+        <color name="auth_background">#FDFDFC</color>
+
+        <!--Текст-->
+        <color name="auth_text_color">#000</color>
+
+        <!--Забыл пароль-->
+        <color name="auth_forget_pass">#8B8B8B</color>
+
+        <!--Войти-->
+        <color name="auth_voity_fill">#F8E115</color>
+        <color name="auth_voity_textcolor">#000</color>
+        <color name="auth_voity_b_fill">#F8E115</color>
+        <color name="auth_voity_b_stroke">#EBEBEB</color>
+
+        <!--К регистрации-->
+        <color name="auth_goto_reg">#000</color>
+
+        <!--Войти как партнёр-->
+        <color name="auth_partner_fill">#C4D4DF</color>
+        <color name="auth_partner_textcolor">#000</color>
+        <color name="auth_partner_b_fill">#F8E115</color>
+        <color name="auth_partner_b_stroke">#000</color>
+
+    <!--Фрагмент истории-->
+
+        <!--Фон-->
+        <color name="history_background">#F5F5F5</color>
+
+        <!--Надпись-->
+        <color name="history_text">#000</color>
+
+        <!--Фон с историями-->
+        <color name="history_background_back">#EBEBEB</color>
+
+        <!--Элемент истории-->
+        <color name="history_item_textcolor">#3C3C3C</color>
+        <color name="history_item_header">#000</color>
+        <color name="history_item_dockfor">#C4D4DF</color>
+        <color name="history_item_dockfor_stroke">#000</color>
+        <color name="history_item_dockstroke">#000</color>
+
+    <!--Фрагмент камера-->
+        <!--Фон-->
+        <color name="camera_background">#fff</color>
+
+    <!--Главный фрагмент-->
+
+        <!--Значки-->
+        <color name="color_active">#000</color>
+        <color name="color_active_qr">#000</color>
+        <color name="color_passive_qr">#939393</color>
+        <color name="color_disable">#939393</color>
+        <color name="color_qr_fig">#fff</color>
+
+        <!--Navigation view-->
+        <color name="background_nav">#FFFFFF</color>
+        <color name="line_under_nav">#D9D9D9</color>
+
+    <!--Активити настройки-->
+
+        <color name="settings_button_exit_color">#FFF</color>
+        <!--Изменение кода быстрого доступа-->
+        <color name="settings_changecode_textcolor">#000</color>
+        <color name="settings_changecode_background">#C6C0C0</color>
+        <color name="settings_changecode_stroke">#B9B9B9</color>
+
+        <!--Цвет иконок в EditText-->
+        <color name="settings_icons_color">#808080</color>
+
+    <!--Цвет заднего фона настроек-->
+    <color name="settings_backcolor">#EBEBEB</color>
+
+    <!--Смена пароля-->
+    <color name="setting_change_pass_textcolor">#000</color>
+
+    <!--Информация о пользователе-->
+    <color name="settings_userinfo_back">#E0DFDF</color>
+    <color name="settings_userinfo_text_color">#000</color>
+
+    <!--Push уведомления-->
+    <color name="push_back_text_color">#000</color>
+    <color name="push_back">#fff</color>
+    <color name="push_back_stroke">#E0E0E0</color>
+    <color name="push_back_thumb_true">#fff</color>
+    <color name="push_back_thumb_false">#fff</color>
+    <color name="push_back_track_true">#A9CCE3</color>
+    <color name="push_back_track_true_stroke">#A9CCE3</color>
+    <color name="push_back_track_false">#708A9A</color>
+    <color name="push_back_track_false_stroke">#708A9A</color>
+
+    <!--Дневная/ночная тема фон-->
+    <color name="day_theme">#000</color>
+    <color name="day_theme_stroke">#4D4D4D</color>
+    <color name="day_theme_text_color">#fff</color>
+    <color name="theme_back_thumb_true">#fff</color>
+    <color name="theme_back_thumb_false">#fff</color>
+    <color name="theme_back_track_true">#A9CCE3</color>
+    <color name="theme_back_track_true_stroke">#A9CCE3</color>
+    <color name="theme_back_track_false">#708A9A</color>
+    <color name="theme_back_track_false_stroke">#708A9A</color>
+
+    <color name="back10">#121210</color>
+</resources>

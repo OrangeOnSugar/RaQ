@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/code_background"
+    tools:context=".reset_code_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/reset_code_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/code_title"
+                android:layout_centerHorizontal="true"
+                android:text="Смена кода быстрого \n доступа"
+                android:gravity="center"
+                android:layout_marginTop="80dp"
+                android:textSize="25dp"/>
+
+            <RelativeLayout
+                android:id="@+id/reset_code_sircles_first"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/reset_code_text"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_first_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/auth_sircleoff"/>
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_first_2"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/reset_code_sircles_first_1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/auth_sircleoff"/>
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_first_3"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/reset_code_sircles_first_2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/auth_sircleoff"/>
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_first_4"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/reset_code_sircles_first_3"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/auth_sircleoff"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reset_code_sircles_second"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/reset_code_sircles_first"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_second_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/auth_sircleoff"/>
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_second_2"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/reset_code_sircles_second_1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/auth_sircleoff"/>
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_second_3"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/reset_code_sircles_second_2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/auth_sircleoff"/>
+
+                <ImageView
+                    android:id="@+id/reset_code_sircles_second_4"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/reset_code_sircles_second_3"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/auth_sircleoff"/>
+
+            </RelativeLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reset_code_sircles_second"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:columnCount="3">
+
+                <Button
+                    android:id="@+id/reset_code_one"
+                    android:text="1"
+                    android:textSize="64sp"
+                    android:textColor="@color/code_round"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_two"
+                    android:text="2"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_three"
+                    android:text="3"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_four"
+                    android:text="4"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_five"
+                    android:text="5"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_six"
+                    android:text="6"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_seven"
+                    android:text="7"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_eight"
+                    android:text="8"
+                    android:textSize="64sp"
+                    android:textColor="@color/code_round"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_nine"
+                    android:text="9"
+                    android:textSize="64sp"
+                    android:textColor="@color/code_round"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/reset_code_back"
+                    android:background="@drawable/bx_bx_exit"
+                    android:layout_gravity="center"
+                    android:layout_height="42dp"
+                    android:layout_width="50dp"/>
+                <Button
+                    android:id="@+id/reset_code_zero"
+                    android:text="0"
+                    android:textColor="@color/code_round"
+                    android:textSize="64sp"
+                    android:background="@android:color/transparent"/>
+
+                <Button
+                    android:id="@+id/reset_code_cancel"
+                    android:background="@drawable/cancel"
+                    android:layout_gravity="center"
+                    android:layout_height="38dp"
+                    android:layout_width="50dp"/>
+
+            </GridLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
